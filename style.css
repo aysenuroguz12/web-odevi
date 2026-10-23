@@ -229,3 +229,9 @@ tr.rec td{background:rgba(74,179,255,.08)}
 
 .card .code{font-family:var(--head);font-size:.8rem;font-weight:700;letter-spacing:.06em;color:var(--muted);margin-bottom:8px}
 .card .code + .tag{align-self:flex-start}
+
+/* ---------- Üretim ekranı: durum etiketleri ve ilerleme satırları ---------- */
+html{scroll-padding-top:84px}
+.chip{display:inline-block;align-self:flex-start;font-size:.78rem;font-weight:700;padding:4px 10px;border-radius:999px;background:rgba(255,255,255,.08);color:var(--muted);margin-bottom:10px}
+.stat-line{margin-top:18px;padding:12px 16px;border-left:3px solid var(--orange);background:rgba(255,154,77,.07);border-radius:8px;max-width:none}
+.stat-line strong{color:var(--ink)}
